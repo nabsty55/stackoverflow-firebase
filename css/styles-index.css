@@ -1,0 +1,59 @@
+body{
+  padding: 0;
+  background-color: #d1d8e0;
+
+}
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.login-nav a:hover{
+  background-color: #2bcbba;
+  color:white;
+  padding: 10px;
+
+}
+.login-nav{
+  text-align: right;
+  padding: 10px;
+  border: 5px;
+}
+
+.askquestion{
+  display: inline-block;
+  text-align: left;
+  padding: 0;
+  border: 0;
+}
+.askquestion input{
+  width: 150%;
+  height: 20px;
+
+}
+.questions {
+  text-align: center;
+  width: 600px;
+  border: 1px;
+  padding: 0;
+
+}
+p{
+  border: 1px;
+  width: 100%;
+  border-style: solid;
+  padding: 20px;
+  border-radius: 10px;
+  border-color: #2bcbba;
+
+}
+.questions a:hoover{
+  background-color: #45aaf2
+  padding: 40px;
+
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  
+
+}

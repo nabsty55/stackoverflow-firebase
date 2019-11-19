@@ -1,1 +1,1 @@
-# stackoverflow-firebase
+# StackOverflow-EDU
