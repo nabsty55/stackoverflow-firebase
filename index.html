@@ -1,72 +1,56 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>StackOverflow</title>
-    <link rel="stylesheet" href="css/styles-index.css">
+    <link rel="stylesheet" href="css/styles-index.css" />
   </head>
   <body>
     <div class="login-nav">
       <nav>
         <a href="login.html">login</a> | <a href="register.html">register</a>
-
       </nav>
-
     </div>
-    <div class="container">
-      <form class="" action="index.html" method="post">
-        <div class="askquestion">
-
-          <input type="text" name="" value=""placeholder="Ask a question">
-
+    <div class="clearfix">
+      <form class="form_askqn" action="index.html" method="post">
+          <input type="text" name="" value="" placeholder="Ask a question" />
+        
           <button type="submit" name="button">Submit</button>
-        </div>
       </form>
-      <br>
+    </div>
+    
+    <div class="container">
+      
+      
       <div class="questions">
-        <a href="#"><p tabindex="0">What is the meaning of life?</p></a>
-
-
+         <a href="#"><p tabindex="0">What is the meaning of life?</p></a>
+          <ul>
+            <li>Life has different definition in the eyes of different people. There is no a clear cut definition for it. For some, life is all about building a family and leading "life" as it is. For some, life is all about accumulating wealth. For others ,life is all about engaging in academic circle. Still for others, life is all about art. For many life is all about love. For a few, life is all about religious practices. For philosopher like Aristotle life is about happiness: "Happiness is the meaning and the purpose of life, the whole aim and end of human existence." Hence life has different definition for different people.</li>
+            <br>
+            <li>To me, life is inherently meaningless. That does not mean there is no meaning to life — just that it's not intrinsic. It can change, develop, and grow over time.</li>
+            <br>
+            
+        </ul>                
       </div>
-      <br>
+      <br />
       <div class="questions">
         <a href="#"><p tabindex="0">What is programming?</p></a>
+        <p>Programming is coding, modeling, simulating or presenting the solution to a problem, by representing facts, data or information using pre-defined rules and semantics, on a computer or any other device for automation.</p>
       </div>
 
-      <br>
-      <br>
+      <br />
+      <br />
       <div class="questions">
         <a href="#"><p tabindex="0">What is oop?</p></a>
+        <p>Object-oriented programming (OOP) is a programming language model in which programs are organized around data, or objects, rather than functions and logic.</p>
       </div>
 
-      <br>
-      <div class="footer">
-        <footer>&copy Antony Nabende 2019</footer>
-
-      </div>
-
+      <br />
+      
     </div>
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#config-web-app -->
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyBsK48k-fFSfpKY-jr9_nWGjTnjjKez1uA",
-    authDomain: "stackoverflow-edu-na.firebaseapp.com",
-    databaseURL: "https://stackoverflow-edu-na.firebaseio.com",
-    projectId: "stackoverflow-edu-na",
-    storageBucket: "",
-    messagingSenderId: "462869902989",
-    appId: "1:462869902989:web:a0287a37486dc9743114c4"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-</script>
-
-
+    <div class="footer">
+        <footer>&copy Antony Nabende 2019</footer>
+      </div>
+  
   </body>
 </html>

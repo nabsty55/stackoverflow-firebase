@@ -1,15 +1,28 @@
 body{
   margin: 0;
   padding: 0;
-  background-color:##d1d8e0 ;
+  background-color:#d1d8e0 ;
 }
 .container{
     padding: 1px;
     height: 50%;
     width: 400px;
+    
+    margin: 20px auto;
 }
-.login-nav{
-    float:right;
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.login-nav a:hover {
+  background-color: #2bcbba;
+  color: white;
+  padding: 10px;
+}
+.login-nav {
+  text-align: right;
+  padding: 10px;
+  border: 5px;
 }
 .login-box{
   position:absolute;
@@ -52,7 +65,7 @@ body{
   margin: 12px 0;
 
 }
-.btn input[type:"button"]{
+.btn {
   border: 0;
   background: note;
   display: block;

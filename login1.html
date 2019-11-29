@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/styles-login.css
+    ">
+    <title>Login-firebased</title>
+</head>
+<body>
+    <div class="main-div">
+        <h3>Login</h3>
+        <input type="email" placeholder="email..." id="email_field">
+        <input type="password" placeholder="password..." id="password_field">
+        <button onclick={login()}>Login</button>
+
+    </div>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyCQD8P-Jdpn-1COSAAdVntyn-ZovV_uwyw",
+        authDomain: "login-firebase-7c17c.firebaseapp.com",
+        databaseURL: "https://login-firebase-7c17c.firebaseio.com",
+        projectId: "login-firebase-7c17c",
+        storageBucket: "login-firebase-7c17c.appspot.com",
+        messagingSenderId: "709692128158",
+        appId: "1:709692128158:web:6075a23250340b7222748f"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="./index.js"></script>
+
+</body>
+</html>

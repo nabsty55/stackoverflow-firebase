@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-div{
+    width: 507px;
+    height: 178px;
+    margin: 67px 880px 245px 373px;
+    margin-top: 150;
+    padding: 20px;
+    
+    
+
+}
+.main-div input{
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;    
+    padding: 15px;
+    outline: none;
+    margin-bottom: 20px
+    
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+.login-nav a:hover {
+    background-color: #2bcbba;
+    color: white;
+    padding: 10px;
+  }
+  .login-nav {
+    text-align: right;
+    padding: 10px;
+    border: 5px;
+  }
+.main-div button{
+    
+    background: #5d8ffc;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+}
